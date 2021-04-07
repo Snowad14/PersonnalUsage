@@ -1,0 +1,85 @@
+{
+  "name": "imposter",
+  "display": "Impostor",
+  "type": "among-us",
+  "install": [
+    {
+      "files": [
+        "https://github.com/Snowad14/PersonnalUsage/releases/download/${version}/Impostor-linux.tar.gz"
+      ],
+      "type": "download"
+    },
+    {
+      "commands": [
+        "tar -xf Impostor-linux.tar.gz"
+      ],
+      "type": "command"
+    },
+    {
+      "commands": [
+        "chmod +x Impostor.Server",
+        "rm Impostor-linux.tar.gz"
+      ],
+      "type": "command"
+    },
+    {
+      "target": "config.json",
+      "text": " {\n  \"Server\": {\n    \"PublicIp\": \"${publicip}\",\n    \"PublicPort\": ${publicport},\n    \"ListenIp\": \"${listenip}\",\n    \"ListenPort\": ${listenport}\n  }\n}",
+      "type": "writefile"
+    }
+  ],
+  "run": {
+    "stopCode": 1,
+    "command": "./Impostor.Server",
+    "pre": [],
+    "post": [],
+    "environmentVars": {}
+  },
+  "data": {
+    "listenip": {
+      "type": "string",
+      "desc": "The IP the Server should listen on",
+      "display": "listeIP",
+      "required": true,
+      "value": "0.0.0.0",
+      "userEdit": true
+    },
+    "listenport": {
+      "type": "integer",
+      "desc": "The Port the Server listen on",
+      "display": "listenPort",
+      "required": true,
+      "value": "22023",
+      "userEdit": true
+    },
+    "publicip": {
+      "type": "string",
+      "desc": "The Adress the clients should connect to",
+      "display": "publicIP",
+      "required": true,
+      "value": "127.0.0.1",
+      "userEdit": true
+    },
+    "publicport": {
+      "type": "integer",
+      "desc": "The Port, which is used to connect to the Server",
+      "display": "publicPort",
+      "required": true,
+      "value": "22023",
+      "userEdit": true
+    },
+    "version": {
+      "type": "string",
+      "desc": "The Version of the Imposter Server you want to use",
+      "display": "Version",
+      "required": true,
+      "value": "2020.12.9s",
+      "userEdit": true
+    }
+  },
+  "supportedEnvironments": [
+    {
+      "type": "standard"
+    }
+  ]
+}
