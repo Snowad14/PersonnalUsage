@@ -1,0 +1,32 @@
+[
+  {
+    "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+    "value": "eyJpdiI6Im1xcEhOblcvNmtEVmFvNGUrM0tzYmc9PSIsInZhbHVlIjoibHVlemZsWitRakRnOUt1RmtkbmQ3MnJzcGdnekxaLytHcUwxbEFudmpuMUpib1lsR2FCU2dPMVJIR253WGR1Mnh1dFZFWFBIU251eGNtdDFvZGNwWm1YYU43ZGNyK2ZHMVZPRzNlaVo5Q1g0bFpLOFVhUVNSclg2Q1EvWFhDSldweGN1TFJ6ZHBjOXE4R3c5OGFhd2xvSjZMb3FWVldqMVhRSVpreUhBckhXZllkYURmbVpSN1RvbWVWTlg1NnZJL2lZRTFTdDhVMTN0M1FROS8rdzh4SnFCNTJGZGVoSDQwYUxiUkoyaVg4ND0iLCJtYWMiOiI5ODhmYWY4NDZjNDc4MDI0MzgzYTU5NzFjNmY1MmU5NWZmZjI2NzZiOWYxZWZkNzNjMmZiZTgzYzk3OWI4MTgzIn0%3D",
+    "domain": "storycraft.fr",
+    "path": "/",
+    "expires": 1659041438.545307,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "XSRF-TOKEN",
+    "value": "eyJpdiI6ImxBdnZiUklrakVSN05PcTEyNDJUOXc9PSIsInZhbHVlIjoiajdKUGg5UUE4cWRVLzUzS09nbDZxU1dSbmhUZDBJUW04UXFNd2FCbFdJRmdBWk56YS9pNzU2bDhiSU1maDRLdEZ3MGtzR1dTWEQ1MGI1REhWemNYNVlnUUxFNVJHdEgwWktCbU1waGt1WSswbDVobTFiVUJCU1hheXVMNVp5bE0iLCJtYWMiOiJmOGEzNzcxNGJhOTBkOGI0NTgyYzhkY2RiNzc0MmIyMDEwYWI3YmVkOTFmZGNiZWNmNjdkYWM4NTllNWY3MDlhIn0%3D",
+    "domain": "storycraft.fr",
+    "path": "/",
+    "expires": 1643496839.955941,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "azuriom_session",
+    "value": "eyJpdiI6ImgzajQ4cVVyUXBGZWZGTTBsdHpicUE9PSIsInZhbHVlIjoiU3lYcUZPMmZET2RpR2JaS0pFYUEwL3U2bDdqblFZTWZHVzMya1lrVnlUNHBkUHlORlVlbVF4Z0ZoVFAvSmxFbGZWWG5ZSUMwYU4rYUhaZzBGNU5hbW5EOEt0Y0NZRVJaQVcrS2dORnE0SG16QjZEUWx6UGw1MkVSQ2F1WjQvSzIiLCJtYWMiOiI2OGMxNjBiMGQyYzgwZWNmNTExNTI3OTJjZGRmYjFhYjQ1YzExMmJkYmJjMmYwNTJkMmM3M2JmZWNhYTE0NGUyIn0%3D",
+    "domain": "storycraft.fr",
+    "path": "/",
+    "expires": 1643496839.95601,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]
