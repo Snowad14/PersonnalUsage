@@ -1,0 +1,4 @@
+pymongo
+twitchio
+dnspython
+json
